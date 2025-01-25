@@ -108,7 +108,7 @@ on:
         description: 'String JSON list of Customization'
         required: true
         type: string
-        default: '{"lanip":"192.168.3.1","signaccount":"root","signpassword":"root","wifi2gssid":"0xFFCC","wifi2gpsk":"12345678","wifi5gssid":"0xFFFF","wifi5gpsk":"12345678"}'
+        default: '{"lanip":"192.168.1.1","signaccount":"root","signpassword":"root","wifi2gssid":"0xFFCC","wifi2gpsk":"12345678","wifi5gssid":"0xFFFF","wifi5gpsk":"12345678"}'
       nanoversion:
         type: boolean
         description: 'Compile the nano version'
